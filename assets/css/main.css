@@ -4067,6 +4067,11 @@ input, select, textarea {
 
 	}
 
+iframe{
+	width: 100%;
+	height: 400px;
+}
+
 .darkmode{
   background-color: #193FFEFF;
   color: white;
