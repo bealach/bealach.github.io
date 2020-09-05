@@ -3633,6 +3633,22 @@ input, select, textarea {
 					margin: 0;
 					max-height: 40vh;
 					overflow: hidden;
+					/*Zoom Out*/
+					-webkit-transform: scale(1.5);
+					transform: scale(1.5);
+					-webkit-transition: .3s ease-in-out;
+					transition: .3s ease-in-out;
+				}
+				
+				/*Duplicate with hover for Zoom Out*/
+				.spotlight .image.main:hover {
+					display: block;
+					margin: 0;
+					max-height: 40vh;
+					overflow: hidden;
+					/*Zoom Out*/
+					-webkit-transform: scale(1);
+					transform: scale(1);
 				}
 
 				.spotlight .content {
@@ -3775,6 +3791,19 @@ input, select, textarea {
 
 				.spotlight .image.main {
 					max-height: 60vh;
+					/*Zoom Out*/
+					-webkit-transform: scale(1.5);
+					transform: scale(1.5);
+					-webkit-transition: .3s ease-in-out;
+					transition: .3s ease-in-out;
+				}
+
+				/*Duplicate with hover for Zoom Out*/
+				.spotlight .image.main:hover {
+					max-height: 60vh;
+					/*Zoom Out*/
+					-webkit-transform: scale(1);
+					transform: scale(1);
 				}
 
 				.spotlight .content {
@@ -4030,8 +4059,21 @@ input, select, textarea {
 		/* Spotlight */
 
 			.spotlight .image.main {
-				max-height: 50vh;
-			}
+					max-height: 50vh;
+					/*Zoom Out*/
+					-webkit-transform: scale(1.5);
+					transform: scale(1.5);
+					-webkit-transition: .3s ease-in-out;
+					transition: .3s ease-in-out;
+				}
+
+			/*Duplicate with hover for Zoom Out*/
+			.spotlight .image.main:hover {
+					max-height: 50vh;
+					/*Zoom Out*/
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
 
 			.spotlight .content {
 				padding: 3em 1.25em 1em 1.25em !important;
