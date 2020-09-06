@@ -3633,22 +3633,22 @@ input, select, textarea {
 					margin: 0;
 					max-height: 40vh;
 					overflow: hidden;
-					/*Zoom Out*/
-					-webkit-transform: scale(1.5);
-					transform: scale(1.5);
+					/*Zoom In*/
+					-webkit-transform: scale(1);
+					transform: scale(1);
 					-webkit-transition: .3s ease-in-out;
 					transition: .3s ease-in-out;
 				}
 				
-				/*Duplicate with hover for Zoom Out*/
+				/*Duplicate with hover for Zoom In*/
 				.spotlight .image.main:hover {
 					display: block;
 					margin: 0;
 					max-height: 40vh;
 					overflow: hidden;
-					/*Zoom Out*/
-					-webkit-transform: scale(1);
-					transform: scale(1);
+					/*Zoom In*/
+					-webkit-transform: scale(1.3);
+					transform: scale(1.3);
 				}
 
 				.spotlight .content {
@@ -3791,19 +3791,19 @@ input, select, textarea {
 
 				.spotlight .image.main {
 					max-height: 60vh;
-					/*Zoom Out*/
-					-webkit-transform: scale(1.5);
-					transform: scale(1.5);
+					/*Zoom In*/
+					-webkit-transform: scale(1);
+					transform: scale(1);
 					-webkit-transition: .3s ease-in-out;
 					transition: .3s ease-in-out;
 				}
 
-				/*Duplicate with hover for Zoom Out*/
+				/*Duplicate with hover for Zoom In*/
 				.spotlight .image.main:hover {
 					max-height: 60vh;
-					/*Zoom Out*/
-					-webkit-transform: scale(1);
-					transform: scale(1);
+					/*Zoom In*/
+					-webkit-transform: scale(1.3);
+					transform: scale(1.3);
 				}
 
 				.spotlight .content {
@@ -4060,19 +4060,19 @@ input, select, textarea {
 
 			.spotlight .image.main {
 					max-height: 50vh;
-					/*Zoom Out*/
-					-webkit-transform: scale(1.5);
-					transform: scale(1.5);
+					/*Zoom In*/
+					-webkit-transform: scale(1);
+					transform: scale(1);
 					-webkit-transition: .3s ease-in-out;
 					transition: .3s ease-in-out;
 				}
 
-			/*Duplicate with hover for Zoom Out*/
+			/*Duplicate with hover for Zoom In*/
 			.spotlight .image.main:hover {
 					max-height: 50vh;
-					/*Zoom Out*/
-					-webkit-transform: scale(1);
-					transform: scale(1);
+					/*Zoom In*/
+					-webkit-transform: scale(1.3);
+					transform: scale(1.3);
 				}
 
 			.spotlight .content {
