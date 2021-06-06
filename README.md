@@ -1,1 +1,0 @@
-# bealach.github.io
