@@ -4327,3 +4327,6 @@ input, select, textarea {
 		list-style: none;
 	}
 	
+	.ful{
+		list-style-type: circle;
+	}
