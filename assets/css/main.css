@@ -4330,3 +4330,92 @@ input, select, textarea {
 	.ful{
 		list-style-type: circle;
 	}
+
+	/* Galeria */
+	/* Slider */
+
+	.slider {
+		position: relative;
+	}
+
+		.slider .viewer {
+			position: relative;
+			border-radius: 0.5em;
+			border: solid 1.5em #fff;
+			margin: 0 auto;
+			overflow: hidden;
+			width: 80%;
+		}
+
+		.slider .slide img {
+			border-radius: 0.375em;
+			display: block;
+			margin-left: auto;
+  			margin-right: auto;
+			text-align: center;
+			width: auto;
+			height: 100%;
+		}
+
+		.slider .nav-next,
+		.slider .nav-previous {
+			text-decoration: none;
+			background: #fff;
+			border-radius: 100%;
+			color: #ddd;
+			cursor: pointer;
+			display: block;
+			font-size: 2.5em;
+			height: 1.25em;
+			line-height: 1.25em;
+			margin-top: -0.5em;
+			position: absolute;
+			text-align: center;
+			top: 50%;
+			width: 1.25em;
+		}
+
+			.slider .nav-next:before,
+			.slider .nav-previous:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 900;
+			}
+
+			.slider .nav-next:before,
+			.slider .nav-previous:before {
+				position: relative;
+			}
+
+		.slider .nav-next {
+			right: 0;
+		}
+
+			.slider .nav-next:before {
+				content: '\f105';
+				right: -0.05em;
+			}
+
+		.slider .nav-previous {
+			left: 0;
+		}
+
+			.slider .nav-previous:before {
+				content: '\f104';
+				left: -0.05em;
+			}
+
+	/* contacto */
+	#contacto{
+		
+		text-align: right;
+	}
+		
+		
