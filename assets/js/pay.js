@@ -6,7 +6,7 @@ function initPayPalButton() {
   if (!isNaN(quantity)) {
     quantitySelect.style.visibility = "visible";
   }
-  var orderDescription = '';
+  var orderDescription = 'Seleccione el tipo de Asesoría y visita técnica que desea contratar';
   if(orderDescription === '') {
     orderDescription = 'Item';
   }
