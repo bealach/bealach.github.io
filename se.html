@@ -23,10 +23,9 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-                                    <li class="current"><a href="mt.html">POLÍTICAS DE FACTURACIÓN</a></li>
                                     <li><a href="mt.html">MÉTODOS Y TÉCNICAS</a></li>
 									<li><a href="ac.html">ACTIVIDADES CLAVE</a></li>
-									<li><a href="se.html" class="icon solid fa-angle-down">SERVICIOS</a>
+                                    <li class="current"><a href="se.html" class="icon solid fa-angle-down">SERVICIOS</a>
 										<ul>
 											<li><a href="mn.html">CREACIÓN MODELO DE NEGOCIO</a></li>
 											<li><a href="pc.html">PROCESOS CONSTRUCTIVOS</a></li>
@@ -42,25 +41,25 @@
 					<section class="wrapper style1">
 						<div class="inner">
 							<header class="major special">
-								<h1>POLÍTICAS DE FACTURACIÓN</h1>
+								<h2>Ofrecemos los siguientes servicios</h2>
 							</header>
-                            <p>El cliente deberá enviar una solicitud de facturación al correo adrianacp@bealach.com.mx, como máximo 24 horas desde cuándo se realizó la contratación del servicio, con el título "Solicito Facturación"
-                            <br>Al solicitar la factura será necesario que el cliente tenga a la mano y proporcione los siguientes requisitos:
-                            </p>
-                            <ol>
-                                <li>Tipo de servicio contratado</li>
-                                <li>RFC con Homoclave</li>
-                                <li>Nombre completo o razón social</li>
-                                <li>Domicilio Fiscal completo incluyendo calle, colonia, delegación o municipio, estado y código postal</li>
-                                <li>Forma en la que realizó el Pago (transferencias electrónicas de fondos, tarjetas de débito, de crédito, de servicio o las denominadas monederos electrónicos que autorice el Servicio de Administración Tributaria)</li>
-                                <li>Uso de CFDI</li>
-                            </ol>
-                           
-
-							
-							
-						</div>
+                            <div class="row">
+                                <div class="col-12-small col-6">
+                                    <center>
+                                        <span class="image"><img src="images/mn.jpg" style="height: 260px;width: 300px;" /></span>
+                                    </center>
+                                    <a href="mn.html" class="button primary icon solid fa-search large fit">creación modelo de negocio</a>
+                                </div>
+                                <div class="col-12-small col-6">
+                                    <center>
+                                        <span class="image"><img src="images/pc.jpg" style="height: 260px;width: 300px;" /></span>
+                                    </center>
+                                    <a href="pc.html" class="button primary icon solid fa-search large fit">Procesos constructivos</a>
+                                    
+                                </div>
+                            </div>
 					</section>
+
 
 				<!-- Footer -->
                     <section id="footer">
@@ -86,15 +85,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            <!-- Paypal -->
+            <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=MXN" data-sdk-integration-source="button-factory"></script>
+            <script src="assets/js/pay.js" type="text/javascript"></script>
             <!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143766656-1"></script>
-			<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143766656-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-			gtag('config', 'UA-143766656-1');
-			</script>
+            gtag('config', 'UA-143766656-1');
+            </script>
 
 	</body>
 </html>
