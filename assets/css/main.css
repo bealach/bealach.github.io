@@ -4323,7 +4323,7 @@ input, select, textarea {
 		vertical-align: middle;
 	}
 
-	#formalistas{
+	.formalistas{
 		list-style: none;
 	}
 	
@@ -4411,5 +4411,54 @@ input, select, textarea {
 				content: '\f104';
 				left: -0.05em;
 			}
-		
+/* Modal Styles */
+.modal {
+    display: none; /* Inicialmente está oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenido del modal */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 10px;
+	text-align: justify;
+}
+
+/* Botón de cerrar */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Animación de aparición */
+.modal.show {
+    display: flex;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 		
