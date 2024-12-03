@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const text = "firma consultora para las empresas de administración de condominios";
+    const text = "Empresa de administración de condominios";
     const typingElement = document.getElementById('twa');
     let index = 0;
 
