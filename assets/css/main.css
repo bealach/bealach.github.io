@@ -4464,9 +4464,6 @@ input, select, textarea {
 }
 
 .imagesecns{
-	width: 350px; 
-	height: auto; 
-	border-radius: 50%;
 	box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
 }
 		
