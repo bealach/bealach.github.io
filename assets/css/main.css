@@ -4435,6 +4435,8 @@ input, select, textarea {
     position: relative;
     border-radius: 10px;
 	text-align: justify;
+	max-height: 80vh; /* Esto limita la altura del modal (80% de la altura de la ventana del navegador) */
+    overflow-y: auto;
 }
 
 /* Botón de cerrar */
@@ -4461,4 +4463,10 @@ input, select, textarea {
     }
 }
 
+.imagesecns{
+	width: 350px; 
+	height: auto; 
+	border-radius: 50%;
+	box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+}
 		
