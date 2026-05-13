@@ -4664,3 +4664,152 @@ input, select, textarea {
 	}
 
 }
+/* =========================================
+   CONSULTORÍA EN PROYECTOS INMOBILIARIOS
+========================================= */
+
+.realestate-consulting{
+	margin-top:30px;
+}
+
+.realestate-intro{
+	display:grid;
+	grid-template-columns:1.2fr 0.8fr;
+	gap:40px;
+	align-items:center;
+	margin-bottom:50px;
+}
+
+.realestate-copy p{
+	text-align:left;
+}
+
+.realestate-lead{
+	font-size:1.45rem;
+	line-height:1.5;
+	font-weight:400;
+	color:#003366;
+	margin-bottom:1.5rem;
+}
+
+.realestate-close{
+	font-size:1.15rem;
+	font-weight:400;
+	color:#00528a;
+	margin-top:1.5rem;
+}
+
+.realestate-image{
+	display:block;
+	width:100%;
+}
+
+.realestate-image img{
+	width:100%;
+	border-radius:25% 10%;
+	box-shadow:0 1rem 3rem 0 rgba(0,0,0,0.18);
+}
+
+.realestate-tags{
+	display:flex;
+	flex-wrap:wrap;
+	gap:12px;
+	margin:25px 0;
+}
+
+.realestate-tags span{
+	display:inline-block;
+	padding:8px 18px;
+	border-radius:40px;
+	color:#00528a;
+	font-weight:400;
+	background:rgba(49,215,155,0.08);
+	border:1px solid rgba(75,118,235,0.18);
+	box-shadow:0 6px 18px rgba(0,0,0,0.04);
+}
+
+.realestate-services{
+	margin-top:40px;
+}
+
+.realestate-services .audit-card{
+	text-align:center;
+	border-top-color:#31d79b;
+}
+
+.realestate-services .audit-card .icon{
+	display:block;
+	font-size:2.1rem;
+	color:#00528a;
+	margin-bottom:18px;
+}
+
+.realestate-services .audit-card p{
+	margin-bottom:0;
+}
+
+.realestate-investment{
+	margin-top:50px;
+	padding:38px;
+	border-radius:20px;
+	background-color:#31d79b;
+	background-image:url("../../images/overlay.png"), linear-gradient(45deg, rgba(49,215,155,0), #4b76eb 80%);
+	background-size:auto, auto;
+	background-repeat:repeat, no-repeat;
+	color:#ffffff;
+	box-shadow:0 1rem 3rem 0 rgba(0,0,0,0.18);
+	text-align:center;
+}
+
+.realestate-investment h4{
+	color:#ffffff;
+	margin-bottom:1rem;
+}
+
+.realestate-investment p{
+	color:#ffffff;
+	margin-bottom:0;
+}
+
+@media screen and (max-width:980px){
+
+	.realestate-intro{
+		grid-template-columns:1fr;
+		text-align:center;
+	}
+
+	.realestate-copy p{
+		text-align:center;
+	}
+
+	.realestate-tags{
+		justify-content:center;
+	}
+
+	.realestate-image{
+		max-width:420px;
+		margin:0 auto;
+	}
+
+}
+
+@media screen and (max-width:736px){
+
+	.realestate-lead{
+		font-size:1.2rem;
+	}
+
+	.realestate-copy p{
+		text-align:left;
+	}
+
+	.realestate-tags{
+		justify-content:flex-start;
+	}
+
+	.realestate-investment{
+		padding:26px;
+		text-align:left;
+	}
+
+}
